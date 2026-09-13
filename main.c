@@ -1,9 +1,8 @@
 // lid-angle: read a MacBook's built-in lid-angle HID sensor.
 //
 // The sensor is discovered by its standard HID Sensor Device Orientation
-// usage. Product IDs, report IDs, field offsets and precision are read from
-// the report descriptor so newer sensor hubs can be supported without a
-// model-specific table.
+// usage. Report IDs, field offsets and precision are read from the report
+// descriptor; vendor and product IDs do not form a model-specific table.
 
 #include <CoreFoundation/CoreFoundation.h>
 #include <IOKit/hid/IOHIDDevice.h>
