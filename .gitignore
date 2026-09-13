@@ -1,0 +1,4 @@
+/lid-angle
+*.o
+*.dSYM/
+.DS_Store
